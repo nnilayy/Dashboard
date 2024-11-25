@@ -76,7 +76,9 @@ export const AccountSettings = ({ opened, setOpened, userId }: Props) => {
       gqlMutation: UPDATE_USER_MUTATION,
     },
   });
-  const { avatarUrl, name } = queryResult?.data?.data || {};
+  var { avatarUrl, name } = queryResult?.data?.data || {};
+  avatarUrl = "Pfp.png"
+
 
   const closeModal = () => {
     setOpened(false);

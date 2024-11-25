@@ -19,13 +19,13 @@ React-based CRM dashboard featuring comprehensive authentication, antd charts, s
 
 ## 💻 Tech Stack
 
-- ⚛️ React.js
-- 📘 TypeScript
-- 🔄 GraphQL
-- 🎨 Ant Design
-- ⚡ Refine
-- 🛠️ Codegen
-- 🏃‍♂️ Vite
+- React.js
+- TypeScript
+- GraphQL
+- Ant Design
+- Refine
+- Codegen
+- Vite
 
 ## ✨ Features
 

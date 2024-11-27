@@ -23,6 +23,7 @@ import List from "./pages/tasks/list";
 import EditTask from "./pages/tasks/edit";
 import CreateTask from "./pages/tasks/create";
 
+import './styles/global.css';
 function App() {
   return (
     <BrowserRouter>

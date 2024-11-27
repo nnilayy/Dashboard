@@ -102,6 +102,7 @@ export const CompanyContactsTable = () => {
       headStyle={{
         borderBottom: "1px solid #D9D9D9",
         marginBottom: "1px",
+        backgroundColor:'white',
       }}
       bodyStyle={{ padding: 0 }}
       title={

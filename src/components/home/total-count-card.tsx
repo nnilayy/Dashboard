@@ -55,7 +55,7 @@ const DashboardTotalCountCard = ({
 
   return (
     <Card
-      style={{ height: "96px", padding: 0}}
+      style={{ height: "96px", padding: 0}} // gajju backgroundColor:'black'
       bodyStyle={{ padding: '8px 8px 8px 12px' }}
       size="small"
     >

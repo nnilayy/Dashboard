@@ -1,0 +1,45 @@
+/* Add these styles to your global CSS */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scroll on the main document */
+}
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #141414;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #434343;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}
+
+/* For Firefox */
+* {
+  /* scrollbar-width: thin; */
+  scrollbar-color: #434343 #141414;
+}
+
+/* For the kanban board container */
+.kanban-container {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* For the internal scrollable areas */
+.scrollable-content {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+} 

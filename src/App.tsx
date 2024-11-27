@@ -13,7 +13,7 @@ import routerBindings, {
   DocumentTitleHandler,
   UnsavedChangesNotifier,
 } from "@refinedev/react-router-v6";
-import { App as AntdApp } from "antd";
+import { App as AntdApp, ConfigProvider, theme } from "antd";
 import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom";
 import Layout from "./components/layout";
 import { resources } from "./config/resources";
@@ -27,6 +27,11 @@ function App() {
   return (
     <BrowserRouter>
       <RefineKbarProvider>
+        <ConfigProvider
+          theme={{
+            algorithm: theme.darkAlgorithm
+          }}
+        >
           <AntdApp>
             <DevtoolsProvider>
               <Refine
@@ -82,6 +87,7 @@ function App() {
               <DevtoolsPanel />
             </DevtoolsProvider>
           </AntdApp>
+        </ConfigProvider>
       </RefineKbarProvider>
     </BrowserRouter>
   );

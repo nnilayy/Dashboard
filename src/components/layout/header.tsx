@@ -4,7 +4,7 @@ import CurrentUser from "./current-user"
 const Header = () => {
 
   const headerStyles: React.CSSProperties = {
-    background: '#fff',
+    background: '#1f1f1f', //gajju -header
     display: 'flex',
     justifyContent: 'flex-end',
     alignItems: 'center',

@@ -13,7 +13,7 @@ const IconWrapper = ({
         width: "32px",
         height: "32px",
         borderRadius: "50%",
-        backgroundColor: color,
+        backgroundColor: color, // gajju
       }}
     >
       {children}

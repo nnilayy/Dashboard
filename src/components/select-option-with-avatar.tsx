@@ -13,7 +13,7 @@ const SelectOptionWithAvatar = ({ avatarUrl, name, shape }: Props) => {
       style={{
         display: 'flex',
         alignItems: 'center',
-        gap: '8px'
+        gap: '8px',
       }}
     >
       <CustomAvatar shape={shape} name={name} src={avatarUrl} />

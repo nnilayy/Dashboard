@@ -58,7 +58,7 @@ const DealsChart = () => {
 
   return (
     <Card
-      style={{ height: '100%' }}
+      style={{ height: '100%'}} // gajju backgroundColor:'black'
       headStyle={{ padding: '8px 16px' }}
       bodyStyle={{ padding: '24px 24px 0 24px'}}
       title={

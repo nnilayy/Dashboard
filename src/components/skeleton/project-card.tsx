@@ -8,6 +8,7 @@ const ProjectCardSkeleton = () => {
         display: "flex",
         justifyContent: "center",
         gap: "8px",
+        // backgroundColor: "black",
       }}
       title={
         <Skeleton.Button

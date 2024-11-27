@@ -31,7 +31,7 @@ const UpcomingEvents = () => {
 
   return (
     <Card 
-      style={{ height: '100%'}} 
+      style={{ height: '100%',  }} //backgroundColor:'black' gajju
       headStyle={{padding: '8px 16px' }} 
       bodyStyle={{ padding: '0 1rem' }}
       title={

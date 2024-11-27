@@ -14,7 +14,7 @@ export const Home = () => {
   }) 
 
   return (
-    <div>
+    <div > 
       <Row gutter={[32, 32]}>
         <Col xs={24} sm={24} xl={8}>
           <DashboardTotalCountCard 
@@ -42,7 +42,9 @@ export const Home = () => {
       <Row
         gutter={[32, 32]}
         style={{
-          marginTop: '32px'
+          marginTop: '32px',
+          // backgroundColor: 'black',
+
         }}
       >
         <Col
@@ -50,7 +52,9 @@ export const Home = () => {
           sm={24}
           xl={8}
           style={{
-            height: '460px'
+            height: '460px',
+            // backgroundColor: 'black',
+
           }}
         >
           <UpcomingEvents />
@@ -60,7 +64,8 @@ export const Home = () => {
           sm={24}
           xl={16}
           style={{
-            height: '460px'
+            height: '460px',
+            // backgroundColor: 'black',
           }}
         >
           <DealsChart />
@@ -70,7 +75,8 @@ export const Home = () => {
       <Row
         gutter={[32, 32]}
         style={{
-          marginTop: '32px'
+          marginTop: '32px',
+          // backgroundColor: 'black',
         }}
       >
         <Col xs={24}>

@@ -181,7 +181,7 @@ const PageSkeleton = () => {
   const itemCount = 4;
 
   return (
-    <KanbanBoardContainer>
+    <KanbanBoardContainer >
       {Array.from({ length: columnCount }).map((_, index) => (
         <KanbanColumnSkeleton key={index}>
           {Array.from({length: itemCount}).map((_, index)=> (

@@ -10,6 +10,7 @@ const AccordionHeaderSkeleton = () => {
         gap: "8px",
         padding: "12px 24px",
         borderBottom: "1px solid #d9d9d9",
+        // backgroundColor: "black",
       }}
     >
       <Skeleton.Avatar size="small" shape="square" />

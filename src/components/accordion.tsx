@@ -45,7 +45,7 @@ export const Accordion = ({
         padding: "12px 24px",
         gap: "12px",
         alignItems: "start",
-        borderBottom: "1px solid black",
+        borderBottom: "1px solid black", // gajju tasks->open card
       }}
     >
       <div style={{ marginTop: "1px", flexShrink: 0 }}>{icon}</div>
@@ -56,6 +56,7 @@ export const Accordion = ({
             flexDirection: "column",
             gap: "12px",
             flex: 1,
+            backgroundColor: 'black',
           }}
         >
           <Text strong onClick={toggleAccordion} style={{ cursor: "pointer" }}>
